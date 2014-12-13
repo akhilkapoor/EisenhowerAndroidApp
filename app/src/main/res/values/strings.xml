@@ -1,0 +1,58 @@
+<-->Created by Kapoor and Smith</-->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Eisenhower Way to GTD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="urgent">Urgent</string>
+    <string name="not_urgent">Not Urgent</string>
+    <string name="critical">Important</string>
+    <string name="not_critical">Not Important</string>
+    <string name="add_new">Add New</string>
+    <string name="item_name">Item Name</string>
+    <string name="complete">Complete</string>
+    <string name="reorder">Reorder</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="important_urgent">Important\nand\nUrgent</string>
+    <string name="important_not_urgent">Important\nbut\nNot Urgent</string>
+    <string name="not_important_urgent">Not Important\nbut\nUrgent</string>
+    <string name="not_important_not_urgent">Not Important\nand\nNot Urgent</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">kapoor.smith.com</string>
+    <string name="content_authority">com.smith.kapoor</string>
+    <string name="options">Options</string>
+    <string name="sync_button">Sync with Google</string>
+    <string name="logout_button">Disconnect Google</string>
+    <string name="colors_button">Change Colors</string>
+    <string name="exit_button">Exit</string>
+
+    <string-array name="priority_list">
+        <item>Important and Urgent</item>
+        <item>Important but Not Urgent</item>
+        <item>Not Important but Urgent</item>
+        <item>Not Important and Not Urgent</item>
+    </string-array>
+
+    <string-array name="color_list">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Dark Gray</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Light Gray</item>
+        <item>Magenta</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

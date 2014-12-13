@@ -1,0 +1,64 @@
+<-->Created by Kapoor and Smith</-->
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_name"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:paddingLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/complete"
+        android:id="@+id/completed_cb"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/reorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reorder"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/delete_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
